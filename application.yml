@@ -1,0 +1,15 @@
+server:
+  port: 8002
+ 
+spring:
+  application:
+    name: config-client #此实例name
+
+#注册中心指向start    
+eureka:
+  instance:
+    instance-id: config-client
+    appname: ${spring.application.name}
+  client: 
+    service-url: 
+      defaultZone: http://admin:abc666@127.0.0.1:8888/eureka/
