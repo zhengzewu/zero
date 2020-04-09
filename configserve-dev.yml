@@ -1,17 +1,17 @@
 spring:
-   profile: default
+   profiles: default
 server:
    port: 8010
 ---
 
 spring:
-   profile: dev
+   profiles: dev
 server:
    port: 8001
 ---
 
 spring:
-   profile: prd
+   profiles: prd
 server:
    port: 8011
 ---
