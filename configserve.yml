@@ -1,0 +1,21 @@
+spring:
+   profiles: default
+server:
+   port: 8010
+---
+
+spring:
+   profiles: dev
+server:
+   port: 8001
+---
+
+spring:
+   profiles: prd
+server:
+   port: 8011
+---
+
+user:
+   username: zewu
+   password: 123456
