@@ -16,5 +16,6 @@ server:
    port: 8011
 ---
 
-username=zewu
-password=123456
+user:
+   username: zewu
+   password: 123456
